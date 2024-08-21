@@ -1,0 +1,82 @@
+.bd{
+    font-family: Kufam, sans-serif;
+}
+
+.main{
+    width: 100%;
+}
+
+.carousel1{
+    width: 50%; 
+    margin-right: 20px;
+}
+
+.carousel2{
+    width: 50%; 
+    margin-left: 20px;
+}
+
+.titulosCarrusel {
+    display: flex;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 60px;
+}
+
+.tituloCar {
+    text-align: center;
+    width: 50%;
+}
+
+.tituloCar h3 {
+    font-family: 'Krona One', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.contenedorCarrusel {
+    width: calc(100% - 120px);
+    display: flex;
+    overflow-x: auto;
+    justify-content: center;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.carouselItem img {
+    width: 300px;
+    height: 400px;
+}
+
+.divFranja {
+    height: 30px;
+    margin: 20px 60px;
+    background-color: #496683;
+}
+
+.divFranja h3 {
+    display: flex;
+    font-family: 'Krona One', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    justify-content: center;
+}
+
+.productos{
+    width: calc(100% - 120px);
+    display: flex;
+    justify-content: space-around;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 20px;
+}
+
+.productos .prod img {
+    height: auto ;
+    width: 100px ; 
+}

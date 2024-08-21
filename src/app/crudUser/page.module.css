@@ -1,0 +1,114 @@
+.main {
+    padding: 20px 40px;
+}
+
+.inputs {
+    width: 75%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+.labels {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+/* columna flotante para labels: 25% */
+.col25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+/* columna flotante para inputs: 75% width */
+.col75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+.colBtn {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+
+/* pantalla menos que 700px
+  hacer dos columnas una arriba de otra */
+@media screen and (max-width: 700px) {
+
+    .col25,
+    .col75,
+    .inputBtn {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+
+.cont {
+    overflow-x: auto;
+    overflow-y: auto;
+    max-height: 78vh;
+    margin-top: 30px;
+}
+
+.tabla {
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hiddens;
+}
+
+.tabla thead.headTable {
+    background-color: #002d72 !important;
+    color: aliceblue;
+}
+
+.tabla td,
+.tabla th {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 8px;
+    /* border: solid 2px rgb(102, 101, 101); */
+    border: solid 2px gray;
+}
+
+.tabla th {
+    text-align: left;
+}
+
+.tabla button {
+    margin: 0 5px;
+}
+
+.tabla .btnD {
+    background-color: rgb(212, 126, 126);
+}
+
+.tabla .btnE {
+    background-color: rgb(126, 130, 212);
+}
+
+.tabla .labelsTable {
+    width: 10px;
+}
+
+
+.customLabel {
+    margin: 5px 0;
+}
+
+.customInput {
+    margin: 5px 0;
+}
+
+.customButton {
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}

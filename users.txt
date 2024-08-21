@@ -1,0 +1,10 @@
+Administrador
+nombre: user1
+correo: user@mail.com
+contraseña: 12
+
+
+Usuario
+nombre: 12
+correo: 12@mail.com
+contraseña: 12

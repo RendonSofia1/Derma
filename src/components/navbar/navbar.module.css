@@ -1,0 +1,48 @@
+.customNavItem {
+    display: flex;
+    width: max-content;
+    height: auto;
+    margin: 5px 5px;
+}
+
+.customNavLink {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    word-wrap: break-word;
+    max-width: 150px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+.customDrop {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.customDrop a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    color: #333;
+}
+
+.customDrop a:hover {
+    background-color: #ddd;
+}
+
+.customDrop.open {
+    display: block;
+}
+
+.logout {
+    width: 100%;
+}
